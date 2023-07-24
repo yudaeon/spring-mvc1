@@ -12,7 +12,7 @@ import java.io.PrintWriter;
 @WebServlet(name = "memberFormServlet", urlPatterns = "/servlet/members/new-form")
 public class MemberFormServlet extends HttpServlet {
 
-//    private MemberRepository memberRepository = MemberRepository.getInstance(); //싱글톤으로 생성
+    //    private MemberRepository memberRepository = MemberRepository.getInstance(); //싱글톤으로 생성
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html");
