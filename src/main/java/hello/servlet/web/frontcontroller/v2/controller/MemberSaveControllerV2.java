@@ -1,9 +1,8 @@
 package hello.servlet.web.frontcontroller.v2.controller;
 
-import hello.servlet.domain.Member;
-import hello.servlet.domain.MemberRepository;
+import hello.servlet.domain.member.Member;
+import hello.servlet.domain.member.MemberRepository;
 import hello.servlet.web.frontcontroller.MyView;
-import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

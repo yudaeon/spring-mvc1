@@ -1,6 +1,6 @@
-<%@ page import="hello.servlet.domain.Member" %>
+<%@ page import="hello.servlet.domain.member.Member" %>
 <%@ page import="java.util.List" %>
-<%@ page import="hello.servlet.domain.MemberRepository" %>
+<%@ page import="hello.servlet.domain.member.MemberRepository" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%
     MemberRepository memberRepository = MemberRepository.getInstance();
